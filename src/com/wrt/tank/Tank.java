@@ -1,24 +1,34 @@
 package com.wrt.tank;
 
 import java.awt.*;
+import java.util.Random;
 
 public class Tank {
-    private int x=200,y=200,width=15,height=15;
+    private int x=200,y=300;
+    public static int WIDTH = ResourceManager.tankU.getWidth();
+    public static int HEIGHT = ResourceManager.tankU.getHeight();
     private Dir dir = Dir.LEFT;
-    private static final int SPEED = 10;
-    private boolean moving = false;
+    private static final int SPEED = 5;
+    private boolean moving = true;
     private TankFrame tf = null;
+    private boolean living = true;
+    private Random random = new Random();
+    private Group group = Group.BAD;
 
-    public Tank(int x, int y, Dir dir , TankFrame tf) {
+    public Tank(int x, int y, Dir dir ,Group group, TankFrame tf) {
         this.x = x;
         this.y = y;
         this.dir = dir;
+        this.group = group;
         this.tf = tf;
     }
 
     public void paint(Graphics g) {
 //        g.setColor(Color.YELLOW);
 //        g.fillRect(x, y, width, height);
+        if(!living){
+            tf.tanks.remove(this);
+        }
         switch (dir){
             case LEFT:
                 g.drawImage(ResourceManager.tankL,x,y,null);
@@ -50,6 +60,15 @@ public class Tank {
                     y+=SPEED;break;
             }
         }
+
+        if(this.group==Group.BAD && random.nextInt(10)>8){
+            this.fire();
+        }
+        if(this.group == Group.BAD && random.nextInt(100)>95)randomDir();
+    }
+
+    private void randomDir() {
+        this.dir = Dir.values()[random.nextInt(4)];
     }
 
     public boolean isMoving() {
@@ -89,6 +108,20 @@ public class Tank {
     }
 
     public void fire() {
-      tf.bullets.add(new Bullet(this.x,this.y,this.dir,tf));
+      int bX = x + Tank.WIDTH/2 -Bullet.WIDTH/2;
+      int bY = y + Tank.WIDTH/2 -Bullet.WIDTH/2;
+        tf.bullets.add(new Bullet(bX,bY,this.dir,this.group,tf));
+    }
+
+    public void die() {
+        this.living = false;
+    }
+
+    public Group getGroup() {
+        return group;
+    }
+
+    public void setGroup(Group group) {
+        this.group = group;
     }
 }
