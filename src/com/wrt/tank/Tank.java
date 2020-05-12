@@ -16,12 +16,19 @@ public class Tank {
     private Random random = new Random();
     private Group group = Group.BAD;
 
+    Rectangle rect = new Rectangle();
+
     public Tank(int x, int y, Dir dir ,Group group, TankFrame tf) {
         this.x = x;
         this.y = y;
         this.dir = dir;
         this.group = group;
         this.tf = tf;
+
+        rect.x = this.x;
+        rect.y = this.y;
+        rect.width = WIDTH;
+        rect.height = HEIGHT;
     }
 
     public void paint(Graphics g) {
@@ -62,12 +69,18 @@ public class Tank {
             }
         }
 
+
+
         if(this.group==Group.BAD && random.nextInt(100)>80){
             this.fire();
         }
         if(this.group == Group.BAD && random.nextInt(100)>95)randomDir();
 
         boundsCheck();
+
+        //update rect
+        rect.x = this.x;
+        rect.y = this.y;
     }
 
     private void boundsCheck() {
