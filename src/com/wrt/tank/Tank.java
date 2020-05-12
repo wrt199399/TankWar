@@ -1,12 +1,13 @@
 package com.wrt.tank;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.util.Random;
 
 public class Tank {
     private int x=200,y=300;
-    public static int WIDTH = ResourceManager.tankU.getWidth();
-    public static int HEIGHT = ResourceManager.tankU.getHeight();
+    public static int WIDTH = ResourceManager.goodTankU.getWidth();
+    public static int HEIGHT = ResourceManager.goodTankU.getHeight();
     private Dir dir = Dir.LEFT;
     private static final int SPEED = 5;
     private boolean moving = true;
@@ -31,16 +32,16 @@ public class Tank {
         }
         switch (dir){
             case LEFT:
-                g.drawImage(ResourceManager.tankL,x,y,null);
+                g.drawImage(this.group==Group.GOOD? ResourceManager.goodTankL:ResourceManager.badTankL,x,y,null);
                 break;
             case RIGHT:
-                g.drawImage(ResourceManager.tankR,x,y,null);
+                g.drawImage(this.group==Group.GOOD? ResourceManager.goodTankR:ResourceManager.badTankR,x,y,null);
                 break;
             case UP:
-                g.drawImage(ResourceManager.tankU,x,y,null);
+                g.drawImage(this.group==Group.GOOD? ResourceManager.goodTankU:ResourceManager.badTankU,x,y,null);
                 break;
             case DOWN:
-                g.drawImage(ResourceManager.tankD,x,y,null);
+                g.drawImage(this.group==Group.GOOD? ResourceManager.goodTankD:ResourceManager.badTankD,x,y,null);
                 break;
         }
 
@@ -61,10 +62,19 @@ public class Tank {
             }
         }
 
-        if(this.group==Group.BAD && random.nextInt(10)>8){
+        if(this.group==Group.BAD && random.nextInt(100)>80){
             this.fire();
         }
         if(this.group == Group.BAD && random.nextInt(100)>95)randomDir();
+
+        boundsCheck();
+    }
+
+    private void boundsCheck() {
+        if(this.x<2){x=2;}
+        if(this.y<28){y=28;}
+        if(this.x>TankFrame.GAME_WIDTH - Tank.WIDTH-2){x = TankFrame.GAME_WIDTH-Tank.WIDTH-2;}
+        if(this.y>TankFrame.GAME_HEIGHT - Tank.HEIGHT-2){ y = TankFrame.GAME_HEIGHT - Tank.HEIGHT-2;}
     }
 
     private void randomDir() {
