@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e852cd49-2e5f-4d40-946f-e4874ffb4373" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wrt/tank/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wrt/tank/ResourceManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,8 @@
       <workItem from="1588989844281" duration="22511000" />
       <workItem from="1589250085526" duration="9116000" />
       <workItem from="1589335293595" duration="1615000" />
-      <workItem from="1589420997395" duration="1581000" />
+      <workItem from="1589420997395" duration="4668000" />
+      <workItem from="1589507952824" duration="10623000" />
     </task>
     <task id="LOCAL-00001" summary="day10">
       <created>1589018444135</created>
@@ -202,10 +204,10 @@
     </state>
     <state x="323" y="216" key="SettingsEditor/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1587974951699" />
     <state x="369" y="189" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588942972942" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589421004101">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589507953882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589421004101" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589507953882" />
     <state x="582" y="132" key="refactoring.ChangeSignatureDialog" timestamp="1587990956545">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

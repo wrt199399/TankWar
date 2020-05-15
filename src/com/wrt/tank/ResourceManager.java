@@ -10,6 +10,8 @@ public class ResourceManager {
     public  static BufferedImage bulletL,bulletR,bulletU,bulletD;
     public static BufferedImage[] explodes = new BufferedImage[16];
 
+    private ResourceManager(){}
+
     static {
         try {
             goodTankU = ImageIO.read(ResourceManager.class.getClassLoader().getResourceAsStream("images/GoodTank1.png"));
