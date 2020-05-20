@@ -6,6 +6,7 @@ import java.util.Properties;
 
 public class PropertyMgr {
     static Properties props = new Properties();
+    private PropertyMgr(){}
     static {
 
         try {
@@ -18,6 +19,14 @@ public class PropertyMgr {
     public static Object get(String key){
         if(props == null){return null;}
         return props.get(key);
+    }
+
+    public static Integer getInt(String key){
+        return Integer.parseInt((String)get(key));
+    }
+
+    public static String getString(String key){
+        return String.valueOf(get(key));
     }
 
 

@@ -1,1 +1,8 @@
 initTankNum=10
+tankSpeed=5
+bulletSpeed=10
+gameWidth=1080
+gameHeight=720
+#FireStrategy
+goodFs=com.wrt.tank.FourDirFireStrategy
+badFs=com.wrt.tank.DefaultFireStrategy
