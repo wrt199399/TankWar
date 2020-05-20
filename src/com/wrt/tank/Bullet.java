@@ -3,7 +3,7 @@ package com.wrt.tank;
 import java.awt.*;
 
 public class Bullet {
-    private static final int SPEED = 10;
+    private static final int SPEED = PropertyMgr.getInt("bulletSpeed");
     public  static int WIDTH = ResourceManager.bulletU.getWidth();
     public static int HEIGHT = ResourceManager.bulletU.getHeight();
     private int x, y;
@@ -25,6 +25,8 @@ public class Bullet {
         rect.y = this.y;
         rect.width = WIDTH;
         rect.height = HEIGHT;
+
+        tf.bullets.add(this);
     }
 
     public void paint(Graphics g) {

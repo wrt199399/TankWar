@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e852cd49-2e5f-4d40-946f-e4874ffb4373" name="Default Changelist" comment="">
+    <list default="true" id="9e6dc64f-7341-43fc-8cd6-d779ef99157b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TankWar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wrt/tank/DefaultFireStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wrt/tank/FireStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wrt/tank/FourDirFireStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wrt/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wrt/tank/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wrt/tank/PropertyMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wrt/tank/PropertyMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wrt/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wrt/tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wrt/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wrt/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config" beforeDir="false" afterPath="$PROJECT_DIR$/src/config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="TankMyself" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1b7CmcmZ4TiRcQhYULIY4cmLyW2" />
+  <component name="ProjectId" id="1bz2fy1GhC4w0MRhOejEqELf8Tx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -36,25 +45,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/wrt/tank" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.24252874" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wrt.tank" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java学习笔记\java并发编程\JAVA_NOTE\Code\TankMyself\src\com\wrt\tank" />
-      <recent name="F:\java学习笔记\java并发编程\JAVA_NOTE\Code\TankMyself\src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wrt.tank.Main" />
-      <module name="TankMyself" />
+      <module name="TankWar" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wrt.tank.*" />
@@ -65,155 +61,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.wrt.tank.test in TankMyself" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TankMyself" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wrt.tank.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wrt.tank.test" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.com.wrt.tank.test in TankMyself" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e852cd49-2e5f-4d40-946f-e4874ffb4373" name="Default Changelist" comment="" />
-      <created>1587973904338</created>
+      <changelist id="9e6dc64f-7341-43fc-8cd6-d779ef99157b" name="Default Changelist" comment="" />
+      <created>1589620708024</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587973904338</updated>
-      <workItem from="1587973905615" duration="15169000" />
-      <workItem from="1588053849614" duration="12430000" />
-      <workItem from="1588939057430" duration="4368000" />
-      <workItem from="1588989844281" duration="22511000" />
-      <workItem from="1589250085526" duration="9116000" />
-      <workItem from="1589335293595" duration="1615000" />
-      <workItem from="1589420997395" duration="1581000" />
+      <updated>1589620708024</updated>
+      <workItem from="1589620709356" duration="6300000" />
     </task>
-    <task id="LOCAL-00001" summary="day10">
-      <created>1589018444135</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1589018444135</updated>
-    </task>
-    <task id="LOCAL-00002" summary="day10">
-      <created>1589250693441</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1589250693442</updated>
-    </task>
-    <task id="LOCAL-00003" summary="day11">
-      <created>1589251484143</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1589251484143</updated>
-    </task>
-    <task id="LOCAL-00004" summary="day11">
-      <created>1589284930093</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1589284930093</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="day10" />
-    <MESSAGE value="day11" />
-    <option name="LAST_COMMIT_MESSAGE" value="day11" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588941012569">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1589622310203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="384" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588941012569" />
-    <state x="847" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589251850402">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589622310203" />
+    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1589640502467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="847" y="330" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589251850402" />
-    <state x="590" y="323" key="#com.intellij.ide.util.MemberChooser" timestamp="1589008334928">
+    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589640502467" />
+    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1589640502467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="516" y="314" key="#com.intellij.ide.util.MemberChooser/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1587983242156" />
-    <state x="590" y="323" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589008334928" />
-    <state x="687" y="131" key="CommitChangelistDialog2" timestamp="1589284927988">
+    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589640502467" />
+    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1589640502467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="131" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589284927988" />
-    <state x="669" y="369" key="FileChooserDialogImpl" timestamp="1588939754602">
+    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589640502467" />
+    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1589640502467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="369" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588939754602" />
-    <state width="1877" height="75" key="GridCell.Tab.0.bottom" timestamp="1589290271274">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1637" height="220" key="GridCell.Tab.0.bottom/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1588078367368" />
-    <state width="1877" height="75" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589290271274" />
-    <state width="1877" height="75" key="GridCell.Tab.0.center" timestamp="1589290271274">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1637" height="220" key="GridCell.Tab.0.center/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1588078367368" />
-    <state width="1877" height="75" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589290271274" />
-    <state width="1877" height="75" key="GridCell.Tab.0.left" timestamp="1589290271273">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1637" height="220" key="GridCell.Tab.0.left/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1588078367368" />
-    <state width="1877" height="75" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589290271273" />
-    <state width="1877" height="75" key="GridCell.Tab.0.right" timestamp="1589290271274">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1637" height="220" key="GridCell.Tab.0.right/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1588078367368" />
-    <state width="1877" height="75" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589290271274" />
-    <state x="369" y="189" key="SettingsEditor" timestamp="1588942972942">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="323" y="216" key="SettingsEditor/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1587974951699" />
-    <state x="369" y="189" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588942972942" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589421004101">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589421004101" />
-    <state x="582" y="132" key="refactoring.ChangeSignatureDialog" timestamp="1587990956545">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="582" y="132" key="refactoring.ChangeSignatureDialog/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1587990956545" />
-    <state x="554" y="341" width="768" height="699" key="search.everywhere.popup" timestamp="1589252226522">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="485" y="331" width="672" height="678" key="search.everywhere.popup/1680.71.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1587983578953" />
-    <state x="554" y="341" width="768" height="699" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589252226522" />
+    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589640502467" />
   </component>
 </project>
